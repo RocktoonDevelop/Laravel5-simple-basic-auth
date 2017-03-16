@@ -1,0 +1,10 @@
+<?php
+
+return [
+
+    'users' => [
+        'admin1' => '%password%',
+        'admin2' => '%password%'
+    ]
+
+];
