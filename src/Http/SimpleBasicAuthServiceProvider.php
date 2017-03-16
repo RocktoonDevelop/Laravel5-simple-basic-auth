@@ -27,7 +27,7 @@ class SimpleBasicAuthServiceProvider extends ServiceProvider {
             $this->config => config_path('simple_basic_auth.php')
         ]);
 
-        $router->aliasMiddleware('auth.simple_basic', \RocktoonDevelop\SimpleBasicAuth\Http\Middleware\SimpleBasicAuth::class);
+        $router->middleware('auth.simple_basic', \RocktoonDevelop\SimpleBasicAuth\Http\Middleware\SimpleBasicAuth::class);
     }
 
     public function register() {
