@@ -17,5 +17,6 @@
         "psr-4": {
             "RocktoonDevelop\\SimpleBasicAuth\\": "src"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
